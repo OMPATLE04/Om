@@ -1,17 +1,20 @@
 package strings;
 
-public class compare {
-	public static void main(String[]args) { 	
+public class conncat3 {
+	public static void main(String[]args) {
+		String s1= "Md_";
+		String s2 ="Arsh";
+		String s3= "Md " + "Arsh";
+		String s4 = "Md Arsh";
 		
-		String s1="Arsh"; //Raw string 
-		String s2 = "Arsh";
-		if(s1==s2) {
+		
+		if(s3==s4) {
 			System.out.println("reference are equal");
 		}
 		else {
 			System.out.println("reference are  not equal");
 		}
-		if(s1.equals(s2)) {
+		if(s3.equals(s4)) {
 			System.out.println("values are equal");
 		}
 		else {
