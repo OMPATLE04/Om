@@ -4,7 +4,7 @@ import java.util.*;
 public class swapping {
 	
 	public static void main(String []args) {
-		System.out.println("Bubble short");
+		System.out.println("Selection sort");
 		int a[]= {10,30,60,50,20,40};
 		int temp=0;
 		System.out.print("Array before swapping: ");
